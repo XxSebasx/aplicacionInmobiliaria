@@ -55,8 +55,6 @@ select {
     font-size: 16px;
 }
 
-
-
 /* Estilos personalizados para el contenido */
 body {
     font-family: Arial, sans-serif;
@@ -77,6 +75,12 @@ body {
 h1 {
     color: #bb4f41;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
 
 iframe {
@@ -92,4 +96,32 @@ img {
     height: auto;
     margin: 20px auto;
     border-radius: 10px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 5px solid #bb4f41;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #bb4f41;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffffff;
 }
