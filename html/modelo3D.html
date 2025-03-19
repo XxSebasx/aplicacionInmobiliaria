@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/paginaModelo3D.css" />
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./index.html">
+        <img src="../img/logo-maypeweb.png" alt="logo" id="logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="html/sobreNosotros.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/contacto.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <select class="form-control">
+              <option>Servicios</option>
+              <option value="Fabricacion"><a>Fabricacion</a></option>
+              <option value="Diseño"><a>Diseño 3D</a></option>
+              <option value="Interiorismo">Interiorismo</option>
+            </select>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="html/pdf.html">PDF prueba</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <model-viewer src="/models/muebles.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+        <div class="progress-bar hide" slot="progress-bar">
+            <div class="update-bar"></div>
+        </div>
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+    </model-viewer>
+    
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
