@@ -41,6 +41,8 @@ nav a {
 nav a:hover {
     background-color: #ffffff;
     color: #bb4f41;
+    text-decoration: none;
+    
 }
 
 #EnlaceLogo:hover {
@@ -90,13 +92,15 @@ iframe {
     border-radius: 10px;
 }
 
-img {
+.imgServicio{
     display: block;
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
-    margin: 20px auto;
+    margin: 20px 20px;
     border-radius: 10px;
 }
+
+
 
 /* Estilos para el footer */
 footer {
@@ -143,4 +147,34 @@ footer a:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+
+.card{
+    margin: 20px 0;
+}
+
+
+.descripcionDiv{
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    border: 3px solid #1b18cc ;
+    border-radius: 10px;
+    background-color: #bb4f41;
+    color: #ffffff;
+    width: 40%;
+    height: 450px;
+}
+
+.card-text{
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h5{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
 }

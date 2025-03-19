@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles/index.css" />
+    <link
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles/index.css" />
   </head>
 
   <body>
@@ -31,7 +35,6 @@
       </ul>
     </nav>
 
-    <!-- Incrustar video de YouTube usando iframe con la URL correcta -->
     <iframe
       width="560"
       height="315"
@@ -40,8 +43,35 @@
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
-    <img src="img/inmueble1.jpg" />
-    <img src="img/inmueble2.jpg" />
+
+
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="img/inmueble1.jpg" class="card-img-top" alt="Inmueble 1" />
+          <div class="card-body">
+            <h5 class="card-title">Titulo</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quo officiis esse quasi nisi, explicabo soluta laudantium natus corrupti fugit est omnis, hic cumque? Iste quasi consectetur sunt dolorem porro.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src="img/inmueble2.jpg" class="card-img-top" alt="Inmueble 2" />
+          <div class="card-body">
+            <h5 class="card-title">Titulo</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quo officiis esse quasi nisi, explicabo soluta laudantium natus corrupti fugit est omnis, hic cumque? Iste quasi consectetur sunt dolorem porro.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
 
     <footer>
       <p>MAYPE MUEBLES</p>
@@ -54,6 +84,9 @@
       </p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script/index.js"></script>
   </body>
 </html>
